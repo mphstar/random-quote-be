@@ -35,7 +35,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "bintangmali-random-quot-15"
-          entrypoint: "src/index.tsx"
+          entrypoint: "./src/index.tsx"
           root: "."
           
           
