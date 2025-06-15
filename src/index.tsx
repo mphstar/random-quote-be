@@ -3,7 +3,7 @@ import { serve } from "@hono/node-server";
 import puppeteer from "puppeteer";
 import { renderToStaticMarkup } from "react-dom/server";
 import React from "react";
-import { Twibbon } from "./template"; // Pastikan path ini sesuai dengan lokasi file template.tsx
+import { Twibbon } from "./template.tsx"; // Pastikan path ini sesuai dengan lokasi file template.tsx
 
 const app = new Hono();
 
